@@ -11,7 +11,7 @@ public class MovementScript : MonoBehaviour
     [SerializeField] float movementSpeed = 6f;
     [SerializeField] float jumpForce = 5f;
 
-    [SerializeField] public static int JumpCount = 10;
+    [SerializeField] public static int JumpCount = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -53,9 +53,10 @@ public class MovementScript : MonoBehaviour
         }
 
     }
+
     static void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        JumpCount = 10;
+        JumpCount = 5;
     }
 }
