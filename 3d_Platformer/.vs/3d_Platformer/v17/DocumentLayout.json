@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|c:\\users\\gavla\\documents\\github\\game_3d_platformer\\3d_platformer\\assets\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|solutionrelative:assets\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|c:\\users\\gavla\\documents\\github\\game_3d_platformer\\3d_platformer\\assets\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|solutionrelative:assets\\camerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|c:\\users\\gavla\\documents\\github\\game_3d_platformer\\3d_platformer\\assets\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|solutionrelative:assets\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|c:\\users\\gavla\\documents\\github\\game_3d_platformer\\3d_platformer\\assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CD80E9A-2E7F-1D97-8DC0-B51B4783F77C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StartMenu.cs",
-              "DocumentMoniker": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\StartMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\StartMenu.cs",
-              "ToolTip": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\StartMenu.cs",
-              "RelativeToolTip": "Assets\\StartMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "CameraScript.cs",
+              "DocumentMoniker": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\CameraScript.cs",
+              "RelativeDocumentMoniker": "Assets\\CameraScript.cs",
+              "ToolTip": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\CameraScript.cs",
+              "RelativeToolTip": "Assets\\CameraScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T12:49:39.666Z",
+              "WhenOpened": "2024-02-25T14:24:23.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MovementScript.cs",
-              "DocumentMoniker": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\MovementScript.cs",
-              "RelativeDocumentMoniker": "Assets\\MovementScript.cs",
-              "ToolTip": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\MovementScript.cs",
-              "RelativeToolTip": "Assets\\MovementScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "DocumentMoniker": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\Scripts\\MovementScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovementScript.cs",
+              "ToolTip": "C:\\Users\\gavla\\Documents\\GitHub\\game_3d_platformer\\3d_Platformer\\Assets\\Scripts\\MovementScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovementScript.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T10:52:10.531Z",
+              "WhenOpened": "2024-02-25T14:23:48.75Z",
               "EditorCaption": ""
             }
           ]
