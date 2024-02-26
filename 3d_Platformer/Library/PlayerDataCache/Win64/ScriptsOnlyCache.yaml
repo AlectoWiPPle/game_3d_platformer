@@ -1,9 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraScript
     - EndGame
     - MovementScript
     - StartMenu
+    - TextScript
+    - button
+    - newLevel
+    - spikeMove
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
@@ -19,6 +24,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -90,26 +96,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1610}
     - Class: 114
-      Script: {instanceID: 2600}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2804}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 5572}
+      Script: {instanceID: 5590}
     - Class: 114
-      Script: {instanceID: 5722}
+      Script: {instanceID: 5740}
     - Class: 114
-      Script: {instanceID: 6038}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 24566}
+      Script: {instanceID: 6342}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -126,7 +130,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Level1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -151,6 +155,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -158,8 +166,117 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 7276}
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2998}
+    - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
+      Script: {instanceID: 3528}
+    - Class: 114
+      Script: {instanceID: 4024}
+    - Class: 114
+      Script: {instanceID: 5048}
+    - Class: 114
+      Script: {instanceID: 5590}
+    - Class: 114
+      Script: {instanceID: 5740}
+    - Class: 114
+      Script: {instanceID: 6058}
+    - Class: 114
+      Script: {instanceID: 7298}
+    - Class: 114
+      Script: {instanceID: 23698}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2598}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2998}
+    - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
+      Script: {instanceID: 4024}
+    - Class: 114
+      Script: {instanceID: 5048}
+    - Class: 114
+      Script: {instanceID: 5590}
+    - Class: 114
+      Script: {instanceID: 5740}
+    - Class: 114
+      Script: {instanceID: 5800}
+    - Class: 114
+      Script: {instanceID: 6058}
+    - Class: 114
+      Script: {instanceID: 7298}
+    - Class: 114
+      Script: {instanceID: 23698}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -167,12 +284,20 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Start Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
@@ -182,38 +307,38 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1610}
     - Class: 114
-      Script: {instanceID: 2182}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2600}
+      Script: {instanceID: 2610}
     - Class: 114
-      Script: {instanceID: 2804}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3970}
+      Script: {instanceID: 3640}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 3986}
     - Class: 114
-      Script: {instanceID: 4328}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 5572}
+      Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 5722}
+      Script: {instanceID: 5590}
     - Class: 114
-      Script: {instanceID: 6038}
+      Script: {instanceID: 5740}
     - Class: 114
-      Script: {instanceID: 7828}
+      Script: {instanceID: 6058}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -359,6 +484,12 @@ ScriptsOnlyBuild:
     className: Benchmark01_UGUI
   - hash:
       serializedVersion: 2
+      Hash: b085e52a63cbc49f8994054cea3bf672
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: spikeMove
+  - hash:
+      serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -461,10 +592,22 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: d4a89b2052aa4ac91567df0e09a813dd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TextScript
+  - hash:
+      serializedVersion: 2
       Hash: 1d830bc5cfaaf24301dffea2877f4bea
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: 7a67fde7550b3a016a23aaf568a23fb8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: newLevel
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -581,6 +724,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 595c49751db0d45efc1aa6b580d96cca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StartMenu
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -639,6 +788,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cb025887f74e21b10474ec4413044edd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraScript
   - hash:
       serializedVersion: 2
       Hash: c78ed13f6b5a632d70d4f73f56ad81f2
@@ -941,6 +1096,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 7abfdc9e219adc71611f9ead4def9347
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: button
+  - hash:
+      serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -999,6 +1160,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: f16e72b7202444a8e9a7a4df10104388
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EndGame
   - hash:
       serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
@@ -1157,7 +1324,7 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 87d1e16f50a8f59441a13978ac8637f2
+      Hash: 34ab2e5deaeddec602aa070bd68365c7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MovementScript
@@ -1263,21 +1430,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 595c49751db0d45efc1aa6b580d96cca
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StartMenu
-  - hash:
-      serializedVersion: 2
-      Hash: f16e72b7202444a8e9a7a4df10104388
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EndGame
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start Scene.unity
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Level1.unity
+  - Assets/Scenes/Level2.unity
   - Assets/Scenes/EndMenu.unity
-  playerPath: C:/Users/gavla/Desktop/test game/3d_Platformer.exe
+  playerPath: C:/Users/gavla/Documents/GitHub/game_3d_platformer/Release 1.0/3d_Platformer.exe

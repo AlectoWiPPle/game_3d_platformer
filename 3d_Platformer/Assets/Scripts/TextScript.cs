@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Threading;
 
 public class TextScript : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class TextScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        JumpText.text = "Jumps left : " + MovementScript.JumpCount;
+        int count;
+        count = MovementScript.JumpCount;
+        JumpText.text = "Jumps left : " + (count - 1);
     }
 }

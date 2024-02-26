@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,9 +11,9 @@ public class MovementScript : MonoBehaviour
     Rigidbody rb;
     [SerializeField] float movementSpeed = 6f;
     [SerializeField] float jumpForce = 5f;
-
+    
     [SerializeField] public static int JumpCount = 5;
-
+    [SerializeField] AudioSource jumpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,9 +44,10 @@ public class MovementScript : MonoBehaviour
     void Jump()
     {
         rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
+        jumpSound.Play();
     }
 
-    void OnCollisionEnter(Collision collision)
+   private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "Cube")
         {
@@ -54,9 +56,12 @@ public class MovementScript : MonoBehaviour
 
     }
 
-    static void Restart()
+     void Restart()
     {
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         JumpCount = 5;
+        button.spike = false;
+
     }
 }
